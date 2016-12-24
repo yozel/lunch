@@ -13,12 +13,13 @@ pool = PersonPool([
     Person('hande.sert'),
     Person('tarkan.dikmen'),
 
-    Person('hakan.ozay', vehicle=Motocycle()),
+    # Person('hakan.ozay', vehicle=Motocycle()),
     Person('can.cilingir', vehicle=Car()),
 
     Person('emre.yilmaz', vehicle=Car()),
     Person('halil.kaya'),
     Person('altay.inci'),
+    Person('gurkan.kizil'),
 ])
 
 result = place(pool)
